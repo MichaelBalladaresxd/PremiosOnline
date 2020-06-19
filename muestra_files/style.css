@@ -504,8 +504,35 @@ div#pozoGanador{
 	-moz-border-radius: 162px 162px 162px 162px;
 	-webkit-border-radius: 162px 162px 162px 162px;
 	border: 0px solid #22386b;
-
+	padding-left: 3%;
 	background-color: #22386b;
+	position: absolute;
+}
+button#btnParticipar{
+	background-color:#ed5a24 ;
+	color: white;
+	border-radius: 12px;
+}
+
+div#pozoGanadorApuesta{
+	border-radius: 162px 162px 162px 162px;
+	-moz-border-radius: 162px 162px 162px 162px;
+	-webkit-border-radius: 162px 162px 162px 162px;
+	border: 0px solid #303030;
+	padding-left: 3%;
+	background-color: #303030;
+	position: absolute;
+}
+
+span#numeroEstado{
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	width: 100px;
+     height: 100px;
+	border: 0px solid #ed5a24;
+	background-color: #ed5a24;
+	color: white;
 }
 /*********************************************************************/
 /*estilo pagina usuario*/
