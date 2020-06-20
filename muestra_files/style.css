@@ -499,29 +499,64 @@ p
 /*********************************************************************/
 /*estilo Multi Tombola*/
 /*********************************************************************/
-div#pozoGanador{
+span#pozoGanador{
 	border-radius: 162px 162px 162px 162px;
 	-moz-border-radius: 162px 162px 162px 162px;
 	-webkit-border-radius: 162px 162px 162px 162px;
 	border: 0px solid #22386b;
-	padding-left: 3%;
+
 	background-color: #22386b;
-	position: absolute;
+	
+	font-size: 19px;
+	letter-spacing: 1.62px;
+	line-height: 0px;
+	
+}
+span#pozoGanador>text{
+	padding-left: 5%;
+	padding-right: 5%;
 }
 button#btnParticipar{
 	background-color:#ed5a24 ;
 	color: white;
 	border-radius: 12px;
+	border-color: #ed5a24;
 }
 
-div#pozoGanadorApuesta{
+button#btnParticiparCerrado{
+	background-color:transparent ;
+	color: #22386b;
+	border-radius: 12px;
+	border-color: #219aff;
+	font-size: 12px;
+}
+#Premio3{
+	position: relative;
+	left: 0; 
+	top: 0;
+}
+div#nombrePremio3{
+	border-radius: 65px 65px 65px 65px;
+	-moz-border-radius: 65px 65px 65px 65px;
+	-webkit-border-radius: 65px 65px 65px 65px;
+	border: 0px solid #22386b;
+	
+	background-color: #22386b;
+	width: max-content;
+	height: max-content;
+	
+}
+span#pozoGanadorApuesta{
 	border-radius: 162px 162px 162px 162px;
 	-moz-border-radius: 162px 162px 162px 162px;
 	-webkit-border-radius: 162px 162px 162px 162px;
 	border: 0px solid #303030;
-	padding-left: 3%;
+
 	background-color: #303030;
-	position: absolute;
+
+	font-size: 19px;
+	letter-spacing: 1.62px;
+	line-height: 0px;
 }
 
 span#numeroEstado{
@@ -532,6 +567,16 @@ span#numeroEstado{
      height: 100px;
 	border: 0px solid #ed5a24;
 	background-color: #ed5a24;
+	color: white;
+}
+span#numeroEstadoCerrado{
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	width: 100px;
+     height: 100px;
+	border: 0px solid #219aff;
+	background-color: #219aff;
 	color: white;
 }
 /*********************************************************************/
