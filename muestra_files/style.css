@@ -512,15 +512,38 @@ span#pozoGanador{
 	line-height: 0px;
 	
 }
-span#pozoGanador>text{
-	padding-left: 5%;
-	padding-right: 5%;
+div#pozoGanador{
+	background-color: #22386b;
+	border: 1px solid #22386b;
+	width: auto;
+	padding: 3px 16px;
+	border-radius: 15px;	
+	position: relative;
+	font-size: 18px;
+	color: #f1db02 ;
+	text-align: center;
+	z-index: 1;
+	margin-top: -12px;
+}
+div#pozoGanadorApuesta{
+	background-color: #303030;
+	border: 1px solid #303030;
+	width: auto;
+	padding: 3px 16px;
+	border-radius: 15px;	
+	position: relative;
+	font-size: 18px;
+	color: #f1db02 ;
+	text-align: center;
+	z-index: 1;
+	margin-top: -12px;
 }
 button#btnParticipar{
 	background-color:#ed5a24 ;
 	color: white;
 	border-radius: 12px;
 	border-color: #ed5a24;
+	padding: 2% 7%;
 }
 
 button#btnParticiparCerrado{
@@ -579,6 +602,25 @@ span#numeroEstadoCerrado{
 	background-color: #219aff;
 	color: white;
 }
+a#linkComparte{
+	padding: 6px;
+	background-color:#219aff ;
+	border-radius: 6px;
+	color: #22386b;
+}
+.btnComoParticipar{
+	padding: 5px 15px;
+	border: 3px solid #f2dc02;
+	background: transparent;
+	border-radius: 10px;
+	color: white;
+}
+
+.btnComoParticipar:hover{
+	
+	color: #219aff;
+}
+  
 /*********************************************************************/
 /*estilo pagina usuario*/
 /*********************************************************************/
