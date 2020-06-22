@@ -559,13 +559,12 @@ button#btnParticiparCerrado{
 	top: 0;
 }
 div#nombrePremio3{
-	border-radius: 65px 65px 65px 65px;
-	-moz-border-radius: 65px 65px 65px 65px;
-	-webkit-border-radius: 65px 65px 65px 65px;
+	border-radius: 15px;
 	border: 0px solid #22386b;
-	
+	text-align: center;
 	background-color: #22386b;
-	width: max-content;
+	position: relative;
+	width: auto;
 	height: max-content;
 	
 }
