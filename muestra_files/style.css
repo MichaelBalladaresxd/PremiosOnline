@@ -497,8 +497,60 @@ p
 
 
 /*********************************************************************/
-/*estilo Multi Tombola*/
+/*estilo MBQ*/
 /*********************************************************************/
+.ActividadReciente{
+	background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 6px #B2B2B2;
+    display: inline-block;
+    padding: 10px 17px;
+    position: relative;
+	vertical-align: top; 
+	width: auto;
+	color: #22386b;
+	font-weight: 500;
+}
+.ActividadReciente>p>span{
+	font-weight: bold;
+}
+#ScrollActividad::-webkit-scrollbar-thumb{
+	background: #22386b;
+	border-radius: 4px;
+}
+
+#ScrollActividad{
+	overflow-y: scroll;
+	height: 500px;
+	scrollbar-color: #22386b;
+	scrollbar-width: 10px;
+}
+.ActividadReciente::before{
+	background-color: white;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+	width:  20px;
+	box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
+    left: -9px;    
+	}
+  
+
+#SobreMiLink>a{
+	color: #22386b;
+}
+#SobreMiLink{
+	color: #22386b;
+	padding: 3%;
+}
+
 span#pozoGanador{
 	border-radius: 162px 162px 162px 162px;
 	-moz-border-radius: 162px 162px 162px 162px;
