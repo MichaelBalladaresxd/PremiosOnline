@@ -321,10 +321,13 @@ p
     position: absolute;
     top: 12px;
     left: 11px;
-    width: 13px;
-    height: 1px;
-    background: #fff;
+    width: 15px;
+    height: 3px;
+	background: white;
+
 }
+
+
 
 .custom-breadcrumb li:last-child:after {
     position: absolute;
@@ -671,7 +674,126 @@ a#linkComparte{
 	
 	color: #219aff;
 }
+
+#btnRankingComoFunciona{
+	border: 2px solid #23787e;
+	color: #23787e;
+	padding: 5px 39px;
+	background: transparent;
+	border-radius: 10px;
+	font-size: 12px;
+}
   
+hr#LineaRanking{
+	height: 2px;
+	width: 10%;
+	background-color: #e9f3fc;
+}
+
+#btnVerPodio{
+	border: 2px solid #22386b;
+	color: white;
+	padding: 3px 15px;
+	background: #22386b;
+	border-radius: 10px;
+	font-size: 16px;
+}
+
+
+/* TABLA TOP 10 */
+
+thead#HeadTopDiez{
+	
+	color: white;
+	background-color: #012a75;
+	border: 1px solid #012a75;
+}
+
+table.TopDiez{
+	border-radius: 15px;
+	padding: 2px 2px;
+	color: #012a75;
+}
+
+tr#TdTop1{
+	background: #ffdc89;
+}
+
+tr#TdTop2{
+	background: #f0f0f0;
+}
+
+tr#TdTop3{
+	background: #ffdab6;
+}
+
+tfoot.TopDiez{
+	background-color: #031330;
+	color: white;
+}
+
+#RankingCard{
+	background-color: #012a75;
+}
+
+#RankingCardBody{
+	background-color: white;
+	border: 1px solid #012a75;
+}
+
+
+
+.custom-breadcrumb1 {
+    list-style: none;
+    margin: 25px 0 25px;
+	padding: 0;
+    overflow: hidden;
+    text-align: left;
+	position: relative;
+	width: 100%;
+}
+.custom-breadcrumb1 li {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+.custom-breadcrumb1 a {
+    color: #012a75;
+    font-size: 20px;
+}
+.custom-breadcrumb1 li+li {
+    padding-left: 37px;
+}
+.custom-breadcrumb1 li+li:before {
+    content: " ";
+    position: absolute;
+    top: 12px;
+    left: 11px;
+    width: 15px;
+    height: 3px;
+	background: #012a75;
+
+}
+
+.custom-breadcrumb1 li:last-child:after {
+    position: absolute;
+    content: " ";
+    width: 1920px;
+    height: 3px;
+    background: #012a75;
+    top: 12px;
+    left: 100%;
+    margin-left: 15px;
+}
+
+#HeadRankingDos{
+	color: #012a75;
+}
+
+#BodyTopDiezDos{
+	background-color: #012a75;
+	color: white;
+}
 /*********************************************************************/
 /*estilo pagina usuario*/
 /*********************************************************************/
