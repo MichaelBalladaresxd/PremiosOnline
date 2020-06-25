@@ -543,7 +543,7 @@ p
 	width:  20px;
 	box-shadow: -2px 2px 2px 0 rgba( 178, 178, 178, .4 );
     left: -9px;    
-	}
+}
   
 
 #SobreMiLink>a{
@@ -794,6 +794,29 @@ tfoot.TopDiez{
 	background-color: #012a75;
 	color: white;
 }
+
+tbody#TbodyHistorial{
+	color: #22386b;
+	padding: .5rem;
+}
+
+table#TableHistorial td,
+table#TableHistorial th {
+ padding:.3rem;
+ vertical-align:top;
+ border-top:1px solid #dee2e6
+}
+
+#MonedasRow{
+	border-left: 2px solid #e9f3fc;
+}
+
+span.grisCoin{
+	font-weight: bold;
+	color: #989898;
+}
+
+  
 /*********************************************************************/
 /*estilo pagina usuario*/
 /*********************************************************************/
