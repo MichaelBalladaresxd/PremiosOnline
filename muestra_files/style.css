@@ -924,3 +924,73 @@ span.grisCoin{
 }	
 
 /*estilos generales*/
+
+
+/*********************************************************************/
+/*estilo pagina Ruleta 1 */ 
+/*********************************************************************/
+.circle {
+	width: 100%;
+	height: 100%;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	background: #5cb85c;
+}
+
+.NumParticipantes{
+	color: #003e47;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.ParticipantesText{
+	font-size: 15px; 
+	color: #003e47;
+	font-weight: bold;
+}
+
+.RedesSocialesIcono{
+	width: 15%;
+}
+.RedesSocialesText{
+	font-size: 12px;
+	font-weight: bold;
+	color: #22386b;
+}
+
+.MontoFondoAzul{
+	background-color: #22386b;
+	border: 1px solid #22386b;
+	width: auto;
+	padding: 3px 16px;
+	border-radius: 15px;	
+	position: relative;
+	font-size: 18px;
+	color: #f1db02 ;
+	text-align: center;
+	z-index: 1;
+	margin-top: -12px;
+}
+
+.IconoAuspiciador{
+	background-color: white;
+	border: 3px solid #f8d7ab;
+	padding: 5px 5px;
+	border-radius: 12px;
+	margin-top: 10px;
+	height: 80px;
+}
+
+.addIconoAuspiciador{
+	background-color: white;
+	border: 3px solid #cdcdcf;
+	padding: 5px 5px;
+	border-radius: 12px;
+	margin-top: 10px;
+	height: 80px;
+}
+.btnAddUser{
+	background-color: white; 
+	border: transparent;
+}
