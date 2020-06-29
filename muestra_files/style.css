@@ -880,19 +880,6 @@ span.grisCoin{
 }
 
 
-
-
-
-
-.semi-circulo {
-	width: 100px;
-	height: 100px;
-	border-radius: 50%;
-	background: #ffec9a;
-	border: 2px solid #ffec9a;
-	position: relative;
-	margin: 25%;
-}
 }
 
 @media only screen and (max-width:600px) {
@@ -1049,4 +1036,39 @@ span.grisCoin{
 	color: #22386b;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+/* Estilos RUleta 2 */
+.txtPreguntaEscoger{
+	color: #22386b;
+	font-weight: bold;
+	font-size: 13px;
+	position: relative;
+	text-align: center;
+}
+
+.btnAceptarRuleta2{
+	background-color: yellow;
+	border: 1px solid yellow;
+	color: #22386b;
+	font-weight: bold;
+	border-radius: 15px;
+	padding: 3px 6px;
+	width: auto;
+	margin-left: 80%;
+	font-size: 15px;
+	width: 37px;
+}
+
+.btnNegarRuleta2{
+	background-color: #22386b;
+	border: 1px solid #22386b;
+	border-radius: 15px;
+	padding: 3px 6px;
+	color: white;
+	font-weight: bold;
+	width: auto;
+	margin-left: 120%;
+	font-size: 15px;
+	width: 37px;
 }
