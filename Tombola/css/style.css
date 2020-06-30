@@ -1072,3 +1072,25 @@ span.grisCoin{
 	font-size: 15px;
 	width: 37px;
 }
+
+/* AVISO DEL POZO GANADOR */
+.cuadrado{
+	border: 4px solid #22386b;
+	
+}
+
+.txtNombreGanador{
+	color: #22386b;
+}
+
+.CentroCirculoGanador{
+	position: absolute;
+	z-index: 2;
+	margin-bottom: 100px;
+}
+.fondoGanador{
+	position: relative;
+	
+	z-index: 1;
+}
+
