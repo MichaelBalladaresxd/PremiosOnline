@@ -1076,7 +1076,7 @@ span.grisCoin{
 /* AVISO DEL POZO GANADOR */
 .cuadrado{
 	border: 4px solid #22386b;
-	
+	height: 780px;
 }
 
 .txtNombreGanador{
@@ -1085,8 +1085,11 @@ span.grisCoin{
 
 .CentroCirculoGanador{
 	position: absolute;
-	z-index: 2;
-	margin-bottom: 100px;
+	left: 57%;
+	top:45%;
+	margin-left: -22.5%;
+	margin-top: -22.5%;
+	padding: 5%;
 }
 .fondoGanador{
 	position: relative;
@@ -1094,3 +1097,87 @@ span.grisCoin{
 	z-index: 1;
 }
 
+.MonedasCirculoGanador{
+	
+	position: absolute;
+	left: 58%;
+	bottom:30%;
+	margin-left: -22.5%;
+	margin-bottom: -22.5%;
+	width: 30%;
+}
+
+.DineroGanador{
+	z-index: 2;
+	top:-18%;
+	width: 30%;
+}
+
+.FooterCuyGanador{
+	z-index: 2;
+	top:-12%;
+	width: 30%;
+}
+
+@media only screen and (max-width:768px) {
+	
+	.CentroCirculoGanador{
+		position: absolute;
+		left: 50%;
+		top:40%;
+		margin-left: -22.5%;
+		margin-top: -22.5%;
+	}
+
+	.cuadrado{
+		border: 4px solid #22386b;
+		height: 650px;
+	}
+
+	.FooterCuyGanador{
+		z-index: 2;
+		top:-5%;
+		width: 45%;
+	}
+
+	.DineroGanador{
+		z-index: 2;
+		top:-16%;
+		width: 30%;
+	}
+}
+
+@media only screen and (max-width:375px) {
+
+	.CentroCirculoGanador{
+		position: absolute;
+		left: 45%;
+		top:40%;
+		margin-left: -22.5%;
+		margin-top: -22.5%;
+	}
+
+	.cuadrado{
+		border: 4px solid #22386b;
+		height: 580px;
+	}
+
+	.imgCentroCirculoGanador {
+		width: 65%;
+	}
+
+	.DineroGanador{
+		z-index: 2;
+		top:-14%;
+		width: 30%;
+	}
+	.UsuarioPablo{
+		width: 30%;
+	}
+
+	.FooterCuyGanador{
+		z-index: 2;
+		top:-0%;
+		width: 45%;
+	}
+}
