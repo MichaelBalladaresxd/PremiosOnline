@@ -1118,7 +1118,10 @@ span.grisCoin{
 	top:-12%;
 	width: 30%;
 }
-
+.FooterRedesSociales{
+	display: inline;
+	width: 5px;
+}
 @media only screen and (max-width:768px) {
 	
 	.CentroCirculoGanador{
