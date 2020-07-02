@@ -1122,6 +1122,9 @@ span.grisCoin{
 	display: inline;
 	width: 5px;
 }
+
+
+
 @media only screen and (max-width:768px) {
 	
 	.CentroCirculoGanador{
@@ -1183,4 +1186,32 @@ span.grisCoin{
 		top:-0%;
 		width: 45%;
 	}
+}
+
+
+
+/* MultiTombola */
+.CuadroParticipantes{
+	background-color: darkorange;
+	width: 60px;
+	height: 50px;
+	border-radius: 5px;
+	position: relative;
+	margin-right: 8px;
+	margin-bottom: 10px;
+}
+.nombreParticipanteVarios{
+	position: relative;
+	background-color: #22386b;
+	color: white;
+	font-weight: normal;
+	font-size: 10px;
+	padding: 5px 15px;
+	border-radius: 10px;
+	bottom: 5px;
+	
+}
+.TextParticipante{
+	color: white;
+	font-size: 25px;
 }
