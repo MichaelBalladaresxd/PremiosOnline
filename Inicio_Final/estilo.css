@@ -1,0 +1,236 @@
+.bg-inicio-final{
+    background-image: url('./img/bg-inicio_final.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btnParticiparAhora{
+    background-color: #feb506;
+    color: #031330;
+    padding: 10px 15px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    top: 37%;
+    left: 7%;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.btnParticiparAhoraUno{
+    background-color: #feb506;
+    color: #031330;
+    padding: 10px 15px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    top: 86%;
+    left: 5%;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.btnParticiparAhoraDos{
+    background-color: #feb506;
+    color: #031330;
+    padding: 10px 15px;
+    font-weight: bold;
+    position: absolute;
+    z-index: 2;
+    top: 85%;
+    left: 50%;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+.txtAzul{
+    color: #021b49;
+}
+
+.ausp-oro{
+    border: 3px solid #e0a63b;
+    padding: 8px;
+    color: #e0a63b;
+    font-size: 14px;
+}
+
+.ausp-plata{
+    border: 3px solid #858488;
+    padding: 8px;
+}
+
+.ausp-bronce{
+    border: 3px solid #934d24;
+    padding: 8px;
+}
+
+.comentarios{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 12px;
+    background-color: aliceblue;
+}
+
+
+@media only screen and (max-width:1200px) {
+
+}
+
+@media only screen and (max-width:1024px) {
+}
+
+@media only screen and (max-width:991px) {
+	/*********************************************************************/	
+}
+
+@media only screen and (max-width:980px) {
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .btnParticiparAhora{
+        background-color: #feb506;
+        color: #031330;
+        padding: 9px 14px;
+        font-weight: bold;
+        position: absolute;
+        top: 38%;
+        left: 0%;
+        border-radius: 7px;
+        font-size: 12px;
+    }   
+
+    .btnParticiparAhoraUno{
+        background-color: #feb506;
+        color: #031330;
+        padding: 9px 14px;
+        font-weight: bold;
+        position: absolute;
+        z-index: 2;
+        top: 86%;
+        left: 5%;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    
+    .btnParticiparAhoraDos{
+        background-color: #feb506;
+        color: #031330;
+        padding: 9px 14px;
+        font-weight: bold;
+        position: absolute;
+        z-index: 2;
+        top: 85%;
+        left: 50%;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 11px;
+    }
+
+    .txtAuspBronce{
+        font-size: 14px;
+    }
+
+    .txtAuspPlata{
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+	
+}
+
+@media only screen and (max-width:480px) {
+	.btnParticiparAhora{
+        background-color: #feb506;
+        color: #031330;
+        padding: 8px 12px;
+        font-weight: bold;
+        position: absolute;
+        top: 37%;
+        left: 0%;
+        border-radius: 7px;
+        font-size: 10px;
+    }
+
+    .btnParticiparAhoraUno{
+        background-color: #feb506;
+        color: #031330;
+        padding: 6px 12px;
+        font-weight: bold;
+        position: absolute;
+        z-index: 2;
+        top: 86%;
+        left: 5%;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 9px;
+    }
+    
+    .btnParticiparAhoraDos{
+        background-color: #feb506;
+        color: #031330;
+        padding: 6px 10px;
+        font-weight: bold;
+        position: absolute;
+        z-index: 2;
+        top: 85%;
+        left: 39%;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .btnParticiparAhora{
+        background-color: #feb506;
+        color: #031330;
+        padding: 6px 10px;
+        font-weight: bold;
+        position: absolute;
+        top: 38%;
+        left: 0%;
+        border-radius: 7px;
+        font-size: 9px;
+    }
+
+    .btnParticiparAhoraUno{
+        background-color: #feb506;
+        color: #031330;
+        padding: 6px 12px;
+        font-weight: bold;
+        position: absolute;
+        z-index: 2;
+        top: 86%;
+        left: 5%;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 9px;
+    }
+    
+    .btnParticiparAhoraDos{
+        background-color: #feb506;
+        color: #031330;
+        padding: 6px 10px;
+        font-weight: bold;
+        position: absolute;
+        z-index: 2;
+        top: 85%;
+        left: 30%;
+        border-radius: 7px;
+        text-decoration: none;
+        font-size: 8px;
+    }
+
+   
+	
+}
+
+@media only screen and (max-width:240px) {
+
+}	
