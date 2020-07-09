@@ -1,0 +1,78 @@
+.nav-link-registrate{
+    color: white;
+    padding-right: 28px;
+    font-size: 13px;
+
+}
+
+.nav-link-registrate:hover{
+    color: #03b7e3;
+    text-decoration: none;
+}
+
+.bg-registrarse{
+    background-image: url('../img/bg-Registrar.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.border-bg-registrate{
+    border: 5px solid #03b7e3;
+    border-radius: 15px;
+}
+
+.numParticipa{
+    background-color: white;
+    border-radius: 50%;
+    color:#031330;
+    padding: 5px 12px;
+}
+
+.header-participa{
+    background-color:#031330;
+    color: white;
+    font-weight: bold;
+}
+
+.header-gana{
+    background-color:#22447f;
+    color: white;
+    font-weight: bold;
+}
+
+.header-canjea{
+    background-color:#00c0f0;
+    color: white;
+    font-weight: bold;
+}
+
+.btnRegistrateObten{
+    background: #333333;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 8px 30px;
+    text-decoration: none;
+}
+.txt-coin{
+    color: #e9b310;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.btnRegistrarse{
+    border-radius: 8px;
+    background-color: #e48b00;
+    border: 2px soli #a47001;
+    padding: 8px 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.btnRegistrateObten:hover{
+  
+    color: #00c0f0;
+    text-decoration: none;
+}

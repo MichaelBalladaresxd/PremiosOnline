@@ -1,0 +1,234 @@
+.page-nav-ganadores{
+    background-color: #012a75;
+}
+
+.banner-media {
+    background-color: #8B8B8B;
+    height: 256px;
+}
+
+.banner-media-persona{
+    background-color: #8B8B8B;
+    border: 3px solid #B76F00;
+    padding: 10px;
+    height: 256px;
+}
+
+.moneda-icon{
+    width: 30px;
+}
+
+.banner-datos-ganador{
+    height: 256px;
+}
+
+.logo-img-ganador{
+    margin-top: -35px;
+}
+
+.card-premio{
+    padding: 5px;
+    border: 2px solid grey ;
+    margin-top: 10px;
+    height: 276px;
+}
+
+.txtPremiazo{
+    color: #031330;
+    font-weight: bold;
+}
+
+.fecSorteo{
+    color: #031330;
+    font-weight: lighter;
+    margin-top: -15px;
+    
+}
+
+.franja-azul{
+    width: 250px;
+    height: 65px;
+    background-color: #031330;
+    padding: 9px;
+}
+
+.txtNombreGanador{
+    color: #B76F00;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.txtUser{
+    font-size: 12px;
+}
+
+.txtUsuarioGanador{
+    margin-top: -15px;
+    color: white;
+}
+
+.PremioUno{
+    color: #031330;
+    font-weight: normal;
+    margin-top: 10px;
+}
+
+.MonedasGanadas{
+    color: #031330;
+    font-weight: bold;
+}
+
+.img-logo{
+    width: 80px;
+}
+
+
+@media only screen and (max-width:1200px) {
+
+}
+
+@media only screen and (max-width:1024px) {
+}
+
+@media only screen and (max-width:991px) {
+	
+}
+
+@media only screen and (max-width:980px) {
+
+}
+
+@media only screen and (max-width:768px) {
+
+    .banner-media {
+        background-color: #8B8B8B;
+        height: 156px;
+    }
+
+    .banner-media-persona{
+        background-color: #8B8B8B;
+        border: 3px solid #B76F00;
+        padding: 10px;
+        height: 156px;
+    }
+
+    .banner-datos-ganador{
+        font-size: 12px;
+    }
+
+    .card-premio{
+        padding: 5px;
+        border: 2px solid grey ;
+        margin-top: 10px;
+        height: 180px;
+    }
+
+    .franja-azul{
+        width: 150px;
+        height: 65px;
+        background-color: #031330;
+        padding: 9px;
+    }
+
+    .txtNombreGanador{
+        color: #B76F00;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .txtUser{
+        font-size: 9px;
+    }
+    
+    .txtUsuarioGanador{
+        margin-top: -15px;
+        color: white;
+    }
+
+    .img-logo{
+        width: 40px;
+        margin-top: -25px;
+    }
+
+    .PremioUno{
+        color: #031330;
+        font-weight: normal;
+        margin-top: 10px;
+        line-height: 0px;
+    }
+
+    .moneda-icon{
+        width: 30px;
+        margin-top: -5px;
+    }
+
+    .fecSorteo{
+        line-height: 12px;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+	
+}
+
+@media only screen and (max-width:480px) {
+	.banner-media {
+        background-color: #8B8B8B;
+        height: 156px;
+    }
+
+    .banner-media-persona{
+        background-color: #8B8B8B;
+        border: 3px solid #B76F00;
+        padding: 10px;
+        height: 156px;
+    }
+
+    .banner-datos-ganador{
+        font-size: 12px;
+    }
+
+    .card-premio{
+        padding: 5px;
+        border: 2px solid grey ;
+        margin-top: 10px;
+        height: 400px;
+    }
+
+    .franja-azul{
+        width: 150px;
+        height: 65px;
+        background-color: #031330;
+        padding: 9px;
+    }
+
+    .txtNombreGanador{
+        color: #B76F00;
+        font-weight: bold;
+        font-size: 12px;
+    }
+    
+    .txtUser{
+        font-size: 9px;
+    }
+    
+    .txtUsuarioGanador{
+        margin-top: -15px;
+        color: white;
+    }
+
+    .img-logo{
+        width: 40px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+   
+	
+}
+
+@media only screen and (max-width:240px) {
+
+}	
