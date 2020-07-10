@@ -1,15 +1,15 @@
 .img-sorteo-1{
     height: 300px;
-    width: 390px;
+    width: 90%;
 }
 
 .nav-premiazo{
+    width: 90%;
     background-color: #031330;;
     color: white;
-    width: 390px;
-    padding: 9px;
     margin-left: 0.1%;
     font-weight: bold;
+    font-size: 85%;
 }
 
 .btnParticipar{
@@ -23,15 +23,15 @@
 @media only screen and (max-width:768px) {
 
     .img-sorteo-1{
-        height: 200px;
+        height: 90%;
         width: 290px;
     }
     
     .nav-premiazo{
+        width: 90%;
         background-color: #031330;;
         color: white;
         width: 290px;
-        padding: 7px 10px;
         margin-left: 0.1%;
         font-weight: bold;
     }
@@ -53,17 +53,19 @@
 @media only screen and (max-width:480px) {
 	
     .img-sorteo-1{
-        height: 200px;
+        height: 90%;
         width: 290px;
     }
     
     .nav-premiazo{
+        width: 90%;
         background-color: #031330;;
         color: white;
         width: 290px;
         padding: 7px 10px;
         margin-left: 0.1%;
         font-weight: bold;
+        height: 20%;
     }
 
     .btnParticipar{
