@@ -1,0 +1,23 @@
+.page-nav-misiones{
+    background-color: #012a75;
+}
+
+.btn-footer-mision{
+    background-color: #031330;
+    border: #012a75;
+    color: white;
+    padding: 5px 10px;
+}
+
+.text-azul{
+    color: #031330;
+}
+
+.card-mision{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.bg-misiones{
+    background-image: url('./img/bg-inicio_final.png');
+}
