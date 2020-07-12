@@ -65,7 +65,7 @@
 
 
 <!-- Estilo Regitrate css -->
-<link rel="stylesheet" href="./compras.css">
+<link rel="stylesheet" href="./registro.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 
@@ -2050,155 +2050,82 @@ filter: brightness(85%) contrast(143%);
 					
 					<div class="row">
 						<p class="text-center mx-auto col-md-8 txtDescCompras">
-							Al realizar tus compras en las tiendas  de NIKE ganará 4 <img src="./img/coinGold.png" style="width: 25px;"> monedas
-							por cada S/ 1.00 sol gastado. Luego adjuntarás tu voucher en <a href="#">registrar tu compra</a> para reclamar tus monedas. 
+							Registra el voucher* que te dieron por comprar em la tienda <a href="#" class="txtMarcaAusp">NIKE</a> y ganarás 4<img src="./img/coinGold.png" style="width: 25px;">
+							 monedas por cada S/ 1.00 sol gastado.
 						</p>
 					</div>
 
-					<div class="row">
-						<div class="col-md-6">
-							<h4>Tiendas</h4>
-						</div>
+					<div class="row mx-auto col-md-11 formRegistraCompra">
+                        <h5 class="text-white mx-auto">REGISTRA TU COMPRA</h5>
 
-						<div class="col-md-3 col-8">
-							<h5>Tipo de Tiendas</h5>
-						</div>
 
-						<select class="custom-select col-md-2 col-4" name="">
-							<option value="">Elegir</option>
-							<option value="">Dos</option>
-							<option value="">Tres</option>
-						</select>
+                        <form action="" method="post" class="col-md-12">
+
+                            <div class="row mx-auto">
+
+
+                                <div class="col-md-6 row">
+
+                                    <div class="col-md-12 row justify-content-between">
+                                        
+                                            <div class="col">
+                                                <input type="radio" name="" id="">
+                                                <label class="txtCheckBox">Tienda Virtual</label>
+                                            </div>
+                                        
+                                           <div class="col">
+                                                <input type="radio" name="" id="">
+                                                <label class="txtCheckBox mr-2">Tienda Fisica</label>
+                                           </div>
+                                        
+                                    </div>
+
+                                </div>
+
+                                <div class="col-md-6">
+
+                                    <select name="" id="" class="custom-select">
+                                        <option value="" selected>Elegir TIenda Fisica</option>
+                                        <option value="">Tda. Miraflores</option>
+                                        <option value="">Tda. Jockey Plaza</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mx-auto mt-5">
+                                <div class="col-12 col-md-6 mb-3">
+                                    <input type="text" class="form-control" placeholder="Monto de compras en soles S/.">
+                                </div>
+                                <div class="col-12 col-md-6 ">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control" placeholder="Adjuntar voucher">
+                                        <div class="custom-file">
+                                            <input type="file" class="custom-file-input" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03">
+                                            <label class="custom-file-label btnFileRegistroCompra" for="inputGroupFile03">Seleccionar</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit" class="btn btn-warning mt-5 mx-auto text-white">Enviar Ahora</button>
+                            </div>
+
+                        </form>
+                        
 					</div>
+                    
 
-					<div class="row mt-4">
+                    <div class="">
+                        <p class="mt-3 text-muted ml-4">
+                            *Solo se aceptan las compras realizadas en las tiendas <a href="#">Registradas Aqui</a>
+                        </p>
 
-						<div class="card-deck col-md-12 mx-auto">
-
-
-							<div class="card">
-								<div class="card-body">
-									<p class="font-weight-bold">Nike Boulevard Centro Comercial Jockey Plaza</p>
-									<i class="fa fa-map-marker"></i> <a href="" class="Direccion" style="font-size: 12px;">Via Express Javier Prado Este 4200, 15023 Lima</a>
-								</div>
-
-								<div class="card-footer" style="padding: 0px;">
-									<button class="btnTiendaFooter col-md-12">
-										<a class="txtHorarios float-left" href="#">Ver Horarios y Telefonos</a>
-										<span style=" color: white; font-size: 12px;" class="float-right">
-											<i class="fa fa-map-marker"></i> 0.75km
-										</span>
-									</button>
-								</div>
-							</div>
-
-
-							
-							<div class="card">
-								<div class="card-body">
-									<p class="font-weight-bold">Nike Boulevard Centro Comercial Jockey Plaza</p>
-									<i class="fa fa-map-marker"></i> <a href="" class="Direccion" style="font-size: 12px;">Via Express Javier Prado Este 4200, 15023 Lima</a>
-								</div>
-
-								<div class="card-footer" style="padding: 0px;">
-									<button class="btnTiendaFooter col-md-12">
-										<a class="txtHorarios float-left" href="#">Ver Horarios y Telefonos</a>
-										<span style=" color: white; font-size: 12px;" class="float-right">
-											<i class="fa fa-map-marker"></i> 0.75km
-										</span>
-									</button>
-								</div>
-							</div>
-
-							
-							
-							<div class="card">
-								<div class="card-body">
-									<p class="font-weight-bold">Nike Boulevard Centro Comercial Jockey Plaza</p>
-									<i class="fa fa-map-marker"></i> <a href="" class="Direccion" style="font-size: 12px;">Via Express Javier Prado Este 4200, 15023 Lima</a>
-								</div>
-
-								<div class="card-footer" style="padding: 0px;">
-									<button class="btnTiendaFooter col-md-12">
-										<a class="txtHorarios float-left" href="#">Ver Horarios y Telefonos</a>
-										<span style=" color: white; font-size: 12px;" class="float-right">
-											<i class="fa fa-map-marker"></i> 0.75km
-										</span>
-									</button>
-								</div>
-							</div>
-						</div>
-
-
-						<div class="card-deck col-md-12 mx-auto mt-5 mb-5">
-
-
-							<div class="card">
-								<div class="card-body">
-									<p class="font-weight-bold">Nike Boulevard Centro Comercial Jockey Plaza</p>
-									<i class="fa fa-map-marker"></i> <a href="" class="Direccion" style="font-size: 12px;">Via Express Javier Prado Este 4200, 15023 Lima</a>
-								</div>
-
-								<div class="card-footer" style="padding: 0px;">
-									<button class="btnTiendaFooter col-md-12">
-										<a class="txtHorarios float-left" href="#">Ver Horarios y Telefonos</a>
-										<span style=" color: white; font-size: 12px;" class="float-right">
-											<i class="fa fa-map-marker"></i> 0.75km
-										</span>
-									</button>
-								</div>
-							</div>
-
-
-							
-							<div class="card">
-								<div class="card-body">
-									<p class="font-weight-bold">Nike Boulevard Centro Comercial Jockey Plaza</p>
-									<i class="fa fa-map-marker"></i> <a href="" class="Direccion" style="font-size: 12px;">Via Express Javier Prado Este 4200, 15023 Lima</a>
-								</div>
-
-								<div class="card-footer" style="padding: 0px;">
-									<button class="btnTiendaFooter col-md-12">
-										<a class="txtHorarios float-left" href="#">Ver Horarios y Telefonos</a>
-										<span style=" color: white; font-size: 12px;" class="float-right">
-											<i class="fa fa-map-marker"></i> 0.75km
-										</span>
-									</button>
-								</div>
-							</div>
-
-							
-							
-							<div class="card">
-								<div class="card-body">
-									<p class="font-weight-bold">Nike Boulevard Centro Comercial Jockey Plaza</p>
-									<i class="fa fa-map-marker"></i> <a href="" class="Direccion" style="font-size: 12px;">Via Express Javier Prado Este 4200, 15023 Lima</a>
-								</div>
-
-								<div class="card-footer" style="padding: 0px;">
-									<button class="btnTiendaFooter col-md-12">
-										<a class="txtHorarios float-left" href="#">Ver Horarios y Telefonos</a>
-										<span style=" color: white; font-size: 12px;" class="float-right">
-											<i class="fa fa-map-marker"></i> 0.75km
-										</span>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-
-
-					<nav class="mx-auto">
-						<ul class="pagination">
-						  <li class="page-item"><a class="page-link" href="#">1</a></li>
-						  <li class="page-item"><a class="page-link" href="#">2</a></li>
-						  <li class="page-item"><a class="page-link" href="#">3</a></li>
-						  <li class="page-item"><a class="page-link" href="#">4</a></li>
-						  <li class="page-item"><a class="page-link" href="#">5</a></li>
-						</ul>
-					  </nav>
-					
-                   
+                        <p class="mt-3 text-muted ml-4">
+                            *En máximo de 48 horas confirmaremos tu compra. Puedes ver el estado de tu compra en <a href="#">Historial de Monedas</a>
+                        </p>
+                    </div>
+                    
                 </div>
 
             </div>
