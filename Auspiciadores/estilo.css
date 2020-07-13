@@ -1,0 +1,421 @@
+.img-bg-auspiciador{
+    width: 100%;
+    height: 100%;
+}
+
+.contenidoAuspiciadores{
+    top: 180px;
+    position: absolute;
+    width: 56%;
+    margin: 1em auto;  
+    left: 20%;
+    text-align: center;
+    font-size: 25%;
+    color: #031330;
+}
+
+
+/* AUSPICIADORES ORO */
+
+.CuadradoOro{
+    background-color: white;
+    padding: 5px 10px;
+    border: 1px solid #B76F00;
+    border-radius: 8px;
+    display: inline-block;
+    width: 15%;
+    margin-right: 6%;
+    height: 90%;
+}
+
+.AuspOro{
+    position: absolute;
+    top: 345px;
+    text-align: center;
+    width: 73%;
+    left:19%;
+    height: 12%;
+}
+
+.imgAuspOro{
+    width: 70%;
+    height: 100%;
+}
+
+
+/* AUSPICIADORES PLATA */
+
+.CuadradoPlata{
+    background-color: white;
+    border: 2px solid #343a40;
+    border-radius: 8px;
+    padding: 4px 1%;
+    margin-right: 6%;
+    display: inline-block;
+    height: 100%;
+
+}
+
+.AusPlata{
+    position: absolute;
+    top: 480px;
+    text-align: center;
+    width: 60%;
+    left:27%;
+    height: 9%;
+}
+
+.imgAuspPlata{
+    width: 100%;
+    height: 100%;
+}
+
+/* AUSPICIADORES PLATA 2 */
+
+.CuadradoPlata2{
+    background-color: white;
+    border: 2px solid #343a40;
+    border-radius: 8px;
+    padding: 4px 1%;
+    margin-right: 11%;
+    display: inline-block;
+    height: 100%;
+}
+
+.AusPlata2{
+    position: absolute;
+    top: 590px;
+    width: 60%;
+    left:22%;
+    height: 9%;
+}
+
+
+
+
+@media only screen and (max-width:1200px) {
+    /* AUSPICIADORES ORO */
+
+    .CuadradoOro{
+        background-color: white;
+        padding: 5px 10px;
+        border: 1px solid #B76F00;
+        border-radius: 8px;
+        display: inline-block;
+        width: 15%;
+        margin-right: 9%;
+        height: 90%;
+    }
+
+    .AuspOro{
+        position: absolute;
+        top: 325px;
+        text-align: center;
+        width: 65%;
+        left:21%;
+        height: 9%;
+    }
+
+    .imgAuspOro{
+        width: 70%;
+        height: 100%;
+    }
+
+    /* AUSPICIADORES PLATA */
+
+    .CuadradoPlata{
+        background-color: white;
+        border: 2px solid #343a40;
+        border-radius: 8px;
+        padding: 4px 1%;
+        margin-right: 6%;
+        display: inline-block;
+        height: 100%;
+
+    }
+
+    .AusPlata{
+        position: absolute;
+        top: 445px;
+        text-align: center;
+        width: 60%;
+        left:27%;
+        height: 6%;
+    }
+
+    .imgAuspPlata{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* AUSPICIADORES PLATA 2 */
+
+    .CuadradoPlata2{
+        background-color: white;
+        border: 2px solid #343a40;
+        border-radius: 8px;
+        padding: 4px 1%;
+        margin-right: 11%;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .AusPlata2{
+        position: absolute;
+        top: 545px;
+        width: 60%;
+        left:22%;
+        height: 6%;
+    }
+
+}
+
+@media only screen and (max-width:1072px) {
+  
+        /* AUSPICIADORES ORO */
+    
+        .CuadradoOro{
+            background-color: white;
+            padding: 5px 10px;
+            border: 1px solid #B76F00;
+            border-radius: 8px;
+            display: inline-block;
+            width: 15%;
+            margin-right: 9%;
+            height: 90%;
+        }
+    
+        .AuspOro{
+            position: absolute;
+            top: 30%;
+            text-align: center;
+            width: 65%;
+            left:21%;
+            height: 7%;
+        }
+    
+        .imgAuspOro{
+            width: 70%;
+            height: 100%;
+        }
+    
+        /* AUSPICIADORES PLATA */
+    
+        .CuadradoPlata{
+            background-color: white;
+            border: 2px solid #343a40;
+            border-radius: 8px;
+            padding: 4px 1%;
+            margin-right: 6%;
+            display: inline-block;
+            height: 100%;
+    
+        }
+    
+        .AusPlata{
+            position: absolute;
+            top: 39.5%;
+            text-align: center;
+            width: 60%;
+            left:27%;
+            height: 6%;
+        }
+    
+        .imgAuspPlata{
+            width: 100%;
+            height: 100%;
+        }
+    
+        /* AUSPICIADORES PLATA 2 */
+    
+        .CuadradoPlata2{
+            background-color: white;
+            border: 2px solid #343a40;
+            border-radius: 8px;
+            padding: 4px 1%;
+            margin-right: 11%;
+            display: inline-block;
+            height: 100%;
+        }
+    
+        .AusPlata2{
+            position: absolute;
+            top: 48%;
+            width: 60%;
+            left:22.5%;
+            height: 6%;
+        }
+    
+    
+}
+
+@media only screen and (max-width:991px) {
+
+}
+
+@media only screen and (max-width:980px) {
+    .CuadradoOro{
+        background-color: white;
+        padding: 5px 10px;
+        border: 1px solid #B76F00;
+        border-radius: 8px;
+        display: inline-block;
+        width: 15%;
+        margin-right: 9%;
+        height: 90%;
+    }
+
+    .AuspOro{
+        position: absolute;
+        top: 33%;
+        text-align: center;
+        width: 65%;
+        left:21%;
+        height: 6%;
+    }
+
+    .imgAuspOro{
+        width: 70%;
+        height: 100%;
+    }
+
+    /* AUSPICIADORES PLATA */
+
+    .CuadradoPlata{
+        background-color: white;
+        border: 2px solid #343a40;
+        border-radius: 8px;
+        padding: 4px 1%;
+        margin-right: 6%;
+        display: inline-block;
+        height: 100%;
+
+    }
+
+    .AusPlata{
+        position: absolute;
+        top: 41.5%;
+        text-align: center;
+        width: 60%;
+        left:27%;
+        height: 5%;
+    }
+
+    .imgAuspPlata{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* AUSPICIADORES PLATA 2 */
+
+    .CuadradoPlata2{
+        background-color: white;
+        border: 2px solid #343a40;
+        border-radius: 8px;
+        padding: 4px 1%;
+        margin-right: 10.5%;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .AusPlata2{
+        position: absolute;
+        top: 49.5%;
+        width: 60%;
+        left:23%;
+        height: 5%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .CuadradoOro{
+        background-color: white;
+        padding: 5px 10px;
+        border: 1px solid #B76F00;
+        border-radius: 8px;
+        display: inline-block;
+        width: 15%;
+        margin-right: 9%;
+        height: 90%;
+    }
+
+    .AuspOro{
+        position: absolute;
+        top: 29%;
+        text-align: center;
+        width: 65%;
+        left:21%;
+        height: 5%;
+    }
+
+    .imgAuspOro{
+        width: 70%;
+        height: 100%;
+    }
+
+    /* AUSPICIADORES PLATA */
+
+    .CuadradoPlata{
+        background-color: white;
+        border: 2px solid #343a40;
+        border-radius: 8px;
+        padding: 4px 1%;
+        margin-right: 6%;
+        display: inline-block;
+        height: 100%;
+
+    }
+
+    .AusPlata{
+        position: absolute;
+        top: 35%;
+        text-align: center;
+        width: 60%;
+        left:27%;
+        height: 5%;
+    }
+
+    .imgAuspPlata{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* AUSPICIADORES PLATA 2 */
+
+    .CuadradoPlata2{
+        background-color: white;
+        border: 2px solid #343a40;
+        border-radius: 8px;
+        padding: 4px 1%;
+        margin-right: 11%;
+        display: inline-block;
+        height: 100%;
+    }
+
+    .AusPlata2{
+        position: absolute;
+        top: 41.5%;
+        width: 60%;
+        left:23%;
+        height: 5%;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+
+}
+
+@media only screen and (max-width:480px) {
+	
+}
+
+@media only screen and (max-width:320px) {
+
+	
+}
+
+@media only screen and (max-width:240px) {
+
+}	
