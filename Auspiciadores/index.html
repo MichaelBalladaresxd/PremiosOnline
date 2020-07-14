@@ -67,6 +67,10 @@
 <!-- Estilo Regitrate css -->
 <link rel="stylesheet" href="./estilo.css">
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- Modal CSS -->
+<link rel="stylesheet" href="modal.css">
 <style>
 
 /*estilo inicio*/
@@ -1995,15 +1999,15 @@ filter: brightness(85%) contrast(143%);
 
         <div class="AuspOro row">
 
-            <div class="CuadradoOro col-md-3">
+            <div class="CuadradoOro col-md-3" data-toggle="modal" data-target="#ModalMarcas">
                 <img src="./img/marca-oro.png" class="img-fluid imgAuspOro">
             </div>
 
-            <div class="CuadradoOro col-md-3">
+            <div class="CuadradoOro col-md-3" data-target="#ModalMarcas">
                 <img src="./img/marca-oro.png" class="img-fluid imgAuspOro">
             </div>
 
-            <div class="CuadradoOro col-md-3" style="margin-right: 0%;">
+            <div class="CuadradoOro col-md-3" style="margin-right: 0%;" data-target="#ModalMarcas">
                 <img src="./img/marca-oro.png" class="img-fluid imgAuspOro">
             </div>
 
@@ -2095,6 +2099,31 @@ filter: brightness(85%) contrast(143%);
     <script src="./css/sweetalert2.all.min.js.descarga"></script>
 	<link rel="stylesheet" href="./css/sweetalert2.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"></script>
+
+
+
+
+
+	<!-- Modal -->
+	<div class="modal fade modalMarcaClick" id="ModalMarcas" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="ModalMarcasLabel" aria-hidden="true">
+		<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content contenidoModal mx-auto">
+			<div class="modal-header modalCabeza">
+			<p class="modal-title mx-auto modalTitulo" >Auspiciador Oro</p>
+			<button type="button" class="close btnClose" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">&times;</span>
+			</button>
+			</div>
+			<div class="modal-body">
+				<img src="./img/marca-oro.png" alt="" class="img-fluid">
+			</div>
+			<div class="modal-footer modalPie">
+			<button type="button" class="btn btn-canjear mx-auto col-md-8">Canjear Premio</button>
+			<button type="button" class="btn btn-comprar mx-auto col-md-8">Comprar en Tienda</button>
+			</div>
+		</div>
+		</div>
+	</div>
 	
 </body>
 </html>

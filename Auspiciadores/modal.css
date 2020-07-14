@@ -1,0 +1,56 @@
+.modalMarcaClick{
+    background-image: url('./img-modal/bg-esplandor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenidoModal{
+    border: 3px solid #e0a63b;
+    width: 65%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.modalTitulo{
+    font-size: 12px;
+    font-weight: bold;
+    color: #84570c;
+}
+
+.modalCabeza{
+    border-bottom: none;
+}
+
+.btnClose{
+    position: absolute;
+    top:0;
+    right: 0;
+}
+
+.modalPie{
+    border-top: transparent;
+}
+
+.btn-canjear {
+    background-color: #f9f4e8;
+    border: 2px solid #a47001;
+    border-radius: 8px;
+    color: #a47001;
+}
+
+.btn-canjear:hover{
+   text-decoration: none;
+   color: #a47001;
+}
+
+.btn-comprar{
+    background-color: #031330;
+    color: white;
+    border: 2px solid #b9b7b7;
+    border-radius: 8px;
+}
+
+.btn-comprar:hover{
+    color: white;
+    text-decoration: none;
+}
