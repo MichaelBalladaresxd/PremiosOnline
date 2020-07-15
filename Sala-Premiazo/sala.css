@@ -1,0 +1,91 @@
+.ListaAuspiciadores{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.ListaAuspiciadores li{
+    background-color: white;
+    border: solid 1px gray;
+    padding: 7px;
+    border-radius: 5px;
+    width: 50%;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.ListaAuspiciadores li>img{
+   width: 56px;
+}
+
+.bgImgAuspiciadores{
+    background-color: white;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}   
+
+.txtAzul{
+    color: #012a75;
+}
+
+.border-bg-premioPrincipal{
+    border: 3px solid #012a75;
+    margin-top: 3%;
+}
+
+span.pozoGanador{
+	border-radius: 162px 162px 162px 162px;
+	-moz-border-radius: 162px 162px 162px 162px;
+	-webkit-border-radius: 162px 162px 162px 162px;
+	border: 0px solid #22386b;
+
+	background-color: #22386b;
+	
+	font-size: 19px;
+	letter-spacing: 1.62px;
+	line-height: 0px;
+	
+}
+div.pozoGanador{
+	background-color: #22386b;
+	border: 1px solid #22386b;
+	width: auto;
+	padding: 3px 16px;
+	border-radius: 15px;	
+	position: relative;
+	font-size: 18px;
+	color: #f1db02 ;
+	text-align: center;
+	z-index: 1;
+	margin-top: -12px;
+}
+div.pozoGanadorApuesta{
+	background-color: #303030;
+	border: 1px solid #303030;
+	width: auto;
+	padding: 3px 16px;
+	border-radius: 15px;	
+	position: relative;
+	font-size: 18px;
+	color: #f1db02 ;
+	text-align: center;
+	z-index: 1;
+	margin-top: -12px;
+}
+button.btnParticipar{
+	background-color:#ed5a24 ;
+	color: white;
+	border-radius: 12px;
+	border-color: #ed5a24;
+	padding: 2% 7%;
+}
+
+button.btnParticiparCerrado{
+	background-color:transparent ;
+	color: #22386b;
+	border-radius: 12px;
+	border-color: #219aff;
+	font-size: 12px;
+}
