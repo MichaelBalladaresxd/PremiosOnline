@@ -1,0 +1,61 @@
+.FondoReferidos{
+	background-image: url('./img/bg-inicio_final.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.border-bg-referidos{
+	border: 2px solid #ffc107 ;
+	border-top: none;
+}
+
+.txtAzul{
+	color : #031330;
+}
+
+.txtCoin{
+	color: #ffc107;
+	font-weight: bold;
+}
+
+.bg-azul-referido{
+	background-color: #031330	;
+	border-radius: 8px;
+	border: 1px solid #031330;
+}
+
+.btnFacebook{
+	background-color: #3B5999;
+	border: 1px solid #3B5999;
+	border-radius: 5px;
+	padding: 8px 10px;
+	color: white;
+}
+
+.btnInstagram{
+	background: #f09433; 
+	background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+	background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+	border: none;
+	padding: 8px 10px;
+	border-radius: 5px;
+	color: white;
+}
+
+.tbl-referidos{
+	color: white;
+}
+
+.tbl-referidos tr>td{
+	font-weight: bold;
+}
+
+.barraMonedasGanadas{
+	background-color: #3b5999;
+	border: 1px solid #3b5999;
+	padding: 8px 10px;
+	font-weight: normal;
+	text-align: center;
+}

@@ -89,3 +89,18 @@ button.btnParticiparCerrado{
 	border-color: #219aff;
 	font-size: 12px;
 }
+.tv{
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 58px;
+}
+
+.precioMonedAzul{
+	background-color: #012a75;
+	color: #f1db02;
+	padding: 1px 3px;
+	text-align: center;
+	border: 1px solid #012a75;
+	border-radius: 28px;
+	font-size: 12px;
+}
